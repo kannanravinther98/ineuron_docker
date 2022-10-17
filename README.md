@@ -21,3 +21,27 @@ Gives the latest installest docker version in your machine.
 
 ## 7.docker image rm -f <image id>
 ![image](https://user-images.githubusercontent.com/28582315/196296181-3090bea9-89e4-4b49-a7c5-0277f50198b8.png)
+
+## 8.How to create Docker file in VScode
+![image](https://user-images.githubusercontent.com/28582315/196304427-d7c83274-94fb-44eb-b269-ce1abda93957.png)
+
+## 9.docker build -t username/dockername
+This command is used to build the docker image. We try to create the name using username and then the image name user want.
+
+## 10.docker push username/dockername:latest
+This command is used to push the docker image locally build into docker hub.
+
+## 11.docker restart
+This command first stops the container and then automatically start it back.
+
+## 12.docker ps -a
+This command lists all the containers(running + exited)
+
+## 13.docker top
+This command shows the list of processes running inside a container
+
+## 14.docker inspect
+This command shows the low level info of the image
+
+## 15.docker pull image name
+This command pulls the docker image from docker hub in the local system
